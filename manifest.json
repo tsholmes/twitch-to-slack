@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitch to Slack",
+  "description": "This extension assistss you in importing twitch emotes into slack",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://static-cdn.jtvnw.net/"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}

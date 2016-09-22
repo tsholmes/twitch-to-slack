@@ -1,0 +1,21 @@
+body {
+  width: 400px;
+}
+
+td {
+  width: 200px;
+  vertical-align: top;
+}
+
+div.emotePreview {
+  border: 1px solid white;
+}
+
+div.emotePreview:hover {
+  border: 1px solid black;
+}
+
+img#selectedImg {
+  min-width: 28px;
+  min-height: 28px;
+}
